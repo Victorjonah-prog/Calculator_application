@@ -34,8 +34,8 @@ print("*******************")
 print("enter two numbers you want to check the exponential")
 firstNumber = (input("first number:\n"))
 secondNumber = (input("second number:\n"))
-exp = float(firstNumber) % float(secondNumber)
-print(f"{firstNumber} % {secondNumber} = {exp:.2f}")
+exp = float(firstNumber) ** float(secondNumber)
+print(f"{firstNumber} ** {secondNumber} = {exp:.2f}")
 
 
 
