@@ -36,7 +36,12 @@ firstNumber = (input("first number:\n"))
 secondNumber = (input("second number:\n"))
 exp = float(firstNumber) ** float(secondNumber)
 print(f"{firstNumber} ** {secondNumber} = {exp:.2f}")
-
+print("*******************")
+print("enter two numbers you want to perfome floor division with")
+firstNumber = (input("first number:\n"))
+secondNumber = (input("second number:\n"))
+flo = float(firstNumber) // float(secondNumber)
+print(f"{firstNumber} // {secondNumber} = {flo:.2f}")
 
 
 
